@@ -9,7 +9,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/javafx_regex/form.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/com/example/javafx_regex/form.fxml")),400, 500));
         stage.setTitle("Registration Form");
         stage.show();
     }
