@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.javafx_regex.Controller">
+
+    <TextField fx:id="firstNameField" promptText="First Name"/>
+    <Label fx:id="firstNameError"/>
+
+    <TextField fx:id="lastNameField" promptText="Last Name"/>
+    <Label fx:id="lastNameError"/>
+
+    <TextField fx:id="emailField" promptText="Email"/>
+    <Label fx:id="emailError"/>
+
+    <TextField fx:id="dobField" promptText="MM/DD/YYYY"/>
+    <Label fx:id="dobError"/>
+
+    <TextField fx:id="zipField" promptText="Zip Code"/>
+    <Label fx:id="zipError"/>
+
+    <Button fx:id="addButton" text="Add" disable="true" onAction="#handleAdd"/>
+
+</VBox>
